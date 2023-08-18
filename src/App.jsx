@@ -155,11 +155,7 @@ function App() {
                       2021 - 2022
                     </td>
                     <td className="experience_table_data text-xs">
-                      Internship: I learnt the entire process of filling a RGB
-                      and PET, and the working principles of various machines
-                      such as; the Packer, the Bottle Labeller, Wrapper. As an
-                      operator, I was stationed a the Bottle Filler Machine and
-                      EBI Machine.
+                      Internship: I learnt the entire process of filling a RGB and PET, and the working principles of various machines such as; the Packer, the Bottle Labeller, Shrink Wrapper machine. As an operator, I was mostly stationed at the Bottle Filler Machine and EBI(Empty Bottle Inspection) Machine on RGB(Returnable Glass Bottle) line.
                     </td>
                   </tr>
                   <tr className="table_row">
