@@ -1,0 +1,217 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: #FFD6A5;
+  color: #161B40;
+}
+
+
+.introduction {
+  /* border: #0ee70e solid 2px; */
+  width: 100%;
+  height: 30vh;
+  z-index: 44;
+}
+
+#personalImage {
+  width: 28%;
+  z-index: 3;
+}
+
+.spname {
+  position: absolute;
+  right: 0%;
+  bottom: 3%;
+  height: 60%;
+  width: 100%;
+  z-index: 1;
+  background-color: #ffa41bef;
+}
+.spname p:nth-child(1){
+  margin-top: 38px !important;
+  margin-bottom: 10px !important;
+}
+.spname p{
+  display: block;
+  margin: auto;
+  height: fit-content;
+  width: fit-content;
+  color: #161B40;
+}
+
+
+/* .blackblock {
+  width: 60%;
+  position: relative;
+  font-size: 13px;
+} */
+
+
+
+.armor .white_ab {
+  width: 60%;
+  height: 100%;
+  top: 0;
+  color: #7c7777;
+}
+
+.armor .black_ab {
+  width: 40%;
+  height: 100%;
+}
+
+/* .education_section {
+  border: 2px solid saddlebrown;
+} */
+
+
+.education_section .exp {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  color: antiquewhite;
+  /* border: #b81f1f solid 2px; */
+  margin-top:6px;
+}
+
+.education_section .exp .bullet {
+  display: block;
+  background-color: #FFA41B;
+  height: 12px;
+  width: 12px;
+  margin-top: 18px;
+}
+
+.education_section .exp .year {
+  display: flex;
+  gap: 8px;
+  padding: 2px;
+  /* color: aqua; */
+}
+
+.education_section .exp .paragraph {
+  /* color: aqua; */
+  border: 1px solid beige;
+  width: 100px;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+
+.education_section .exp .detail {
+  border: 1px solid beige;
+  width: 60%;
+}
+
+table {
+  /* border: solid firebrick 2px; */
+  width: 100%;
+}
+
+table tbody tr th {
+  background-color: #fa9806;
+}
+table tbody tr td {
+  font-weight: 500;
+}
+table tbody tr td:nth-child(2) {
+  padding: 0 3px;
+  /* background-color: #1bd889; */
+  border-right: #fa9806 solid 2px;
+  border-left: #fa9806 solid 2px;
+  /* width: 50px; */
+}
+table tbody tr:nth-child(even) {
+  background-color: #c4893d;
+  text-align: center;
+}
+table tbody tr:nth-child(odd) {
+  background-color: #cf7e04;
+}
+
+  
+#projects_list{
+  border: #FFA41B solid 2px;
+}
+
+#projects_list li {
+  margin-top: 3px;
+  margin-bottom: 3px;
+  background-color: #FFA41B;
+}
+
+#projects_list li:nth-child(odd) {
+  background-color: #cf7e04;
+  /* margin-top: 3px; */
+}
+
+.contactme .address {
+  width: 170px;
+}
+
+.skillset {
+  width: 300px;
+  margin: auto;
+}
+
+@media (min-width: 660px) {
+  .armor {
+    width: 660px;
+    margin: auto;
+    /* border: solid 2px saddlebrown; */
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  /* #intro_section {
+    border: #0420f3 solid 2px
+  } */
+
+  #personalImage {
+    width: 26%;
+    left: 30px;
+    top: 8%;
+  }
+
+  .spname {
+    top: 20%;
+    right: 0;
+    width: 77%;
+  }
+
+  .blocks {
+    display: flex;
+  }
+
+  .blocks .blackblock {
+    width: 60%;
+  }
+  .blocks .whiteblock {
+    width: 40%;
+  }
+
+  .whiteblock #projects_list a:hover {
+    color: antiquewhite;
+  }
+  
+  .skills {
+    /* border: #161B40 0px solid; */
+    width: 100%;
+  }
+  .skillset {
+    /* border: #161B40 0px solid; */
+    width: 88%;
+  }
+  /* .whiteblock .socialicon a {
+    border: #0b23d8 2px solid;
+  } */
+  .whiteblock .socialicon a:hover {
+    color: #cf7e04;
+    /* border: #0b23d8 2px solid; */
+    /* background-color: #161B40; */
+    height: fit-content;
+    width: fit-content;
+  }
+}
