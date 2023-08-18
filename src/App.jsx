@@ -170,8 +170,7 @@ function App() {
                       2022 - 2023
                     </td>
                     <td className="experience_table_data text-xs">
-                      Internship: Learnt how the basic principles and how to
-                      operate a pneumatic machine and I also learnt how to
+                      Internship: Learnt the basic principles and how to operate a pneumatic machine and I also learnt how to
                       operate and code the Mitsubishi PLC.
                     </td>
                   </tr>
@@ -242,7 +241,7 @@ function App() {
               <div className="address text-sm">
                 <p className="header">ADDRESS</p>
                 <p className="info">
-                  Bells University, sango-ota, Ogun state, Nigeria.
+                  Abuja state, Nigeria.
                 </p>
               </div>
             </div>
@@ -268,7 +267,7 @@ function App() {
               </div>
               <div className="address text-sm">
                 <p className="header">PHONE</p>
-                <p className="info">0123000000</p>
+                {/* <p className="info">08083140554</p> */}
                 <p className="info">08036276872</p>
               </div>
             </div>
