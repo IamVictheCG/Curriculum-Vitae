@@ -149,7 +149,9 @@ function App() {
 
                   <tr className="table_row">
                     <td className="experience_table_data text-xs">
+                      <a className="text-blue-900" target="_blank" href="https://berithspecialisthospital.com/">
                       SevenUP Bottling Company(SBC), Nigeria
+                      </a>
                     </td>
                     <td className="experience_table_data text-xs">
                       2021 - 2022
@@ -160,7 +162,9 @@ function App() {
                   </tr>
                   <tr className="table_row">
                     <td className="experience_table_data text-xs">
+                      <a className="text-blue-900" target="_blank" href="https://berithspecialisthospital.com/">
                       Industrial Training Fund(ITF)
+                      </a>
                     </td>
                     <td className="experience_table_data text-xs">
                       2022 - 2023
@@ -168,6 +172,19 @@ function App() {
                     <td className="experience_table_data text-xs">
                       Internship: Learnt the basic principles and how to operate a pneumatic machine and I also learnt how to
                       operate and code the Mitsubishi PLC.
+                    </td>
+                  </tr>
+                  <tr className="table_row">
+                    <td className="experience_table_data text-xs">
+                    <a className="text-blue-900" target="_blank" href="https://berithspecialisthospital.com/">
+                      Berith Specialist Hospital
+                      </a>
+                    </td>
+                    <td className="experience_table_data text-xs">
+                      2022 - 2023
+                    </td>
+                    <td className="experience_table_data text-xs">
+                      Assistant Admin: As the Assistant Administrator at Berith Specialist Hospital, my role involves overseeing diverse aspects of hospital operations to ensure efficiency and optimal patient care. Key responsibilities encompass strategic planning and execution, regulatory compliance, financial management, human resources oversight, implementation of patient service enhancements, emergency preparedness planning, and fostering interdepartmental collaboration for improved communication and workflow efficiency. <br/>
                     </td>
                   </tr>
                 </tbody>
@@ -210,11 +227,6 @@ function App() {
               <li className="bg-grayishBlack">
                 <a target="_blank" href="https://grocery-store-victorcg.netlify.app/">
                   Grocery Store
-                </a>
-              </li>
-              <li className="bg-grayishBlack">
-                <a target="_blank" href="https://photogallery-victorcg.netlify.app/">
-                  Photo Gallery
                 </a>
               </li>
               <li className="bg-grayishBlack">
