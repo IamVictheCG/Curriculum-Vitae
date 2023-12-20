@@ -181,7 +181,7 @@ function App() {
                       </a>
                     </td>
                     <td className="experience_table_data text-xs">
-                      2022 - 2023
+                      2023 - Date
                     </td>
                     <td className="experience_table_data text-xs">
                       Assistant Admin: As the Assistant Administrator at Berith Specialist Hospital, my role involves overseeing diverse aspects of hospital operations to ensure efficiency and optimal patient care. Key responsibilities encompass strategic planning and execution, regulatory compliance, financial management, human resources oversight, implementation of patient service enhancements, emergency preparedness planning, and fostering interdepartmental collaboration for improved communication and workflow efficiency. <br/>
